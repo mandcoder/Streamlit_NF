@@ -1,0 +1,17 @@
+/* this changes the filter on home.py */
+
+[data-testid="stSelectbox"] > div > div {
+    background-color: #F7B952 !important;
+    border-radius: 2rem !important;
+    color: #0F0D05 !important;
+    border: none !important;  
+}
+
+[data-testid="stPlotlyChart"] {
+    margin-top: -2rem;
+}
+
+[data-testid="stPlotlyChart"] > div {
+    border-radius: 14px;
+    overflow: hidden;
+}
