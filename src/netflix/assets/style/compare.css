@@ -1,0 +1,27 @@
+/* color for st.caption */
+[data-testid="stCaptionContainer"] p {
+    color: var(--text-primary);
+}
+/* rounden corner on the chart */
+[data-testid="stPlotlyChart"] > div {
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+/* Background container for left and right compare title cards */
+.st-key-left-card,
+.st-key-right-card {
+    background-color: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+/* Selectbox wrapper */
+.st-key-left,
+.st-key-right {
+    background-color: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+}

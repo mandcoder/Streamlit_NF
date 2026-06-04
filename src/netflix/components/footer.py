@@ -1,9 +1,12 @@
-"""Reusable footer components with DISCLAIMER for Streamly pages."""
+# -------------------------------------------
+# footer.py
+# Purpose: Reusable disclaimer for all pages
+# -------------------------------------------
 
 import streamlit as st
 
 
-DISCLAIMER_LINES = (
+DISCLAIMER_TEXT = (
     "This application is a student project created for educational purposes only.",
     "Netflix Top 10 data is sourced from Tudum by Netflix.",
     "Movie titles, images, trailers, trademarks, and related content are the property of their respective owners, including Netflix and IMDb.",
@@ -12,10 +15,10 @@ DISCLAIMER_LINES = (
 )
 
 
-def render_disclaimer_footer() -> None:
-    """Render the shared educational and legal disclaimer footer."""
+def disclaimer_footer() -> None:
+    """Render the disclaimer footer."""
     disclaimer_items = "".join(
-        f'<p class="disclaimer-text">{line}</p>' for line in DISCLAIMER_LINES
+        f'<p class="disclaimer-text">{line}</p>' for line in DISCLAIMER_TEXT
     )
 
     st.markdown(
