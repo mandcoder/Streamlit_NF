@@ -186,12 +186,8 @@ __marimo__/
 # Streamlit secrets
 .streamlit/secrets.toml
 
-# Streamlit deployment assets
-# Do NOT ignore src/netflix/assets/data/
-# Streamlit Cloud needs these files if the app reads them.
-!src/netflix/assets/data/
-!src/netflix/assets/data/*.csv
-!src/netflix/assets/data/*.xlsx
+# Local data files
+src/netflix/assets/data/
 
 !src/netflix/assets/image/
 !src/netflix/assets/image/*.png
