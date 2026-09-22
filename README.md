@@ -130,29 +130,6 @@ Global title statistics are calculated from weekly observations, including:
 - HTML/CSS
 - Git / GitHub
 
-## Running the Application
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/mandcoder/Streamlit_NF.git
-cd Streamlit_NF
-```
-
-### 2. Install dependencies
-
-Using `uv`:
-
-```bash
-uv sync
-```
-
-### 3. Run Streamly
-
-```bash
-uv run streamlit run src/netflix/app.py
-```
-
 The Streamlit application will then be available through the local URL
 provided by Streamlit.
 
